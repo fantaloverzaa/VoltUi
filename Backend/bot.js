@@ -1070,7 +1070,7 @@ module.exports = {
     },
     createTicketChannel: async (ticket) => {
         try {
-            const guild = await client.guilds.fetch('1542592937307938867');
+            const guild = await client.guilds.fetch('1529803413896822794');
             if (!guild) {
                 console.error('Ticket guild 1542592937307938867 not found');
                 return null;
