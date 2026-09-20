@@ -761,7 +761,7 @@ client.on('interactionCreate', async interaction => {
                     return interaction.reply({ embeds: [new EmbedBuilder().setDescription('You have not linked a key yet. Please use the "Redeem Key" button first.').setColor('#2ecc71')], ephemeral: true });
                 }
 
-                const roleId = '1544012798097367040';
+                const roleId = '1551038516253827214';
                 const hasRole = interaction.member.roles.cache.has(roleId);
 
                 if (!hasRole) {
